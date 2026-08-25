@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EDI 供应链协同平台</title>
+  <meta name="description" content="连接全球商业网络，实现企业间数据无缝协同" />
+  <link rel="stylesheet" href="css/style.css?v=20260825d" />
+</head>
+<body>
+
+  <!-- ============================================================
+       1. 认证（Hero）
+  ============================================================ -->
+  <section class="section section-hero bg-white">
+    <div class="container">
+      <header class="section-header reveal">
+        <h2 class="section-title">认证</h2>
+        <p class="section-subtitle">很多中国食品、化妆品、保健品企业踩过的大坑</p>
+      </header>
+
+      <div class="hero-grid">
+        <!-- 左侧文案 -->
+        <div class="hero-text reveal reveal-left">
+          <div class="badge-pill">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
+              <circle cx="12" cy="8" r="6" />
+            </svg>
+            权威认证，合规出海
+          </div>
+          <p class="hero-desc">
+            产品品质过硬、价格有优势。海运订舱、清关资料全部备齐。到了印尼港口，
+            却被直接扣货、退运、销毁。
+          </p>
+          <p class="hero-desc">
+            <strong>原因只有一个：没有哈拉（Halal）认证。</strong>
+            在印尼这个全球穆斯林人口最多的国家，哈拉认证不是加分项，而是强制性准入门槛。
+            没有它，寸步难行。
+          </p>
+          <a href="#" class="btn-outline">
+            点击进入
+            <svg class="icon arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- 右侧认证视觉 -->
+        <div class="hero-visual">
+          <div class="cert-visual">
+            <!-- 外圈：顺时针慢速旋转 -->
+            <div class="ring ring-outer"></div>
+            <!-- 内圈：反向慢速旋转 -->
+            <div class="ring ring-inner"></div>
+
+            <div class="cert-core">
+              <div class="cert-inner-wrap">
+              <!-- 扩散光环（2 环慢速扩散） -->
+              <div class="ripple-ring"></div>
+              <div class="ripple-ring" style="animation-delay: 1.6s"></div>
+
+              <!-- 绿色渐变主圆：极轻微呼吸 -->
+              <div class="cert-circle"></div>
+
+              <!-- 中心内容 -->
+              <div class="cert-inner">
+                <div class="cert-logo">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+                    <path d="m9 12 2 2 4-4" />
+                  </svg>
+                </div>
+                <div class="cert-name">Halal</div>
+                <div class="cert-sub">哈拉认证</div>
+              </div>
+
+              <!-- 6 个卫星圆点：认证图标组合（静止衬托主体） -->
+              <div class="satellite" style="left: 95%; top: 50%;">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+              </div>
+              <div class="satellite" style="left: 72.5%; top: 88.97%;">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
+                  <circle cx="12" cy="8" r="6" />
+                </svg>
+              </div>
+              <div class="satellite" style="left: 27.5%; top: 88.97%;">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 22h14" />
+                  <path d="M19.27 13.73A2.5 2.5 0 0 0 17.5 13h-11A2.5 2.5 0 0 0 4 15.5V17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1.5c0-.66-.26-1.3-.73-1.77Z" />
+                  <path d="M14 13V8.5C14 7 15 7 15 5a3 3 0 0 0-3-3c-1.66 0-3 1-3 3s1 2 1 3.5V13" />
+                </svg>
+              </div>
+              <div class="satellite" style="left: 5%; top: 50%;">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4" />
+                  <path d="M14 13.12c0 2.38 0 6.38-1 8.88" />
+                  <path d="M17.29 21.02c.12-.6.43-2.3.5-3.02" />
+                  <path d="M2 12a10 10 0 0 1 18-6" />
+                  <path d="M2 16h.01" />
+                  <path d="M21.8 16c.2-2 .131-5.354 0-6" />
+                  <path d="M5 19.5C5.5 18 6 15 6 12a6 6 0 0 1 .34-2" />
+                  <path d="M8.65 22c.21-.66.45-1.32.57-2" />
+                  <path d="M9 6.8a6 6 0 0 1 9 5.2v2" />
+                </svg>
+              </div>
+              <div class="satellite" style="left: 27.5%; top: 11.03%;">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15" />
+                  <path d="M11 12 5.12 2.2" />
+                  <path d="m13 12 5.88-9.8" />
+                  <path d="M8 7h8" />
+                  <circle cx="12" cy="17" r="5" />
+                  <path d="M12 18v-2h-.5" />
+                </svg>
+              </div>
+              <div class="satellite" style="left: 72.5%; top: 11.03%;">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                </svg>
+              </div>
+              </div><!-- /.cert-inner-wrap -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       2. 培训
+  ============================================================ -->
+  <section class="section bg-slate-50" id="training">
+    <div class="container">
+      <header class="section-header reveal">
+        <h2 class="section-title">培训</h2>
+        <p class="section-subtitle">四大核心板块，全方位覆盖产业链人才能力需求</p>
+      </header>
+
+      <div class="card-grid card-grid-4 stagger">
+        <article class="card card-hover">
+          <div class="card-img">
+            <img src="images/training/training-1.png" alt="国际标准与认证合规培训" />
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h3>国际标准与认证合规培训</h3>
+            <p>系统解读全球目标市场的特色产品认证标准与法规，开展国际通行的食品安全与质量管理体系（如 HACCP、ISO22000）内审员培训，帮助企业构建合规壁垒。</p>
+          </div>
+        </article>
+
+        <article class="card card-hover">
+          <div class="card-img">
+            <img src="images/training/training-2.png" alt="产业专业技能提升培训" />
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h3>产业专业技能提升培训</h3>
+            <p>依托研究院在食品梯次加工、绿色智能制造、营养安全等领域的科研成果，以及培训中心的实操资质，开展特色食品加工技艺、现代化供应链管理、食品安全快速检测等专业技术培训。</p>
+          </div>
+        </article>
+
+        <article class="card card-hover">
+          <div class="card-img">
+            <img src="images/training/training-3.png" alt="跨境运营与数字技能培训" />
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h3>跨境运营与数字技能培训</h3>
+            <p>涵盖跨境电商运营、海外数字营销、跨国企业管理与本地化运营等课程，并配套提供创业指导与就业技能培训，赋能企业开拓全球市场。</p>
+          </div>
+        </article>
+
+        <article class="card card-hover">
+          <div class="card-img">
+            <img src="images/training/training-4.png" alt="专项人才与领导力发展计划" />
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h3>专项人才与领导力发展计划</h3>
+            <p>针对企业高管与技术骨干，开设产业战略高级研修班与前沿技术转化培训，驱动企业管理与技术的同步升级。</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="section-footer reveal">
+        <a href="#" class="btn-outline">
+          点击进入
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       3. 研发
+  ============================================================ -->
+  <section class="section bg-white" id="research">
+    <div class="container">
+      <header class="section-header reveal">
+        <h2 class="section-title">研发</h2>
+        <p class="section-subtitle">专注于前沿探索与产业应用深度融合的战略性创新枢纽</p>
+      </header>
+
+      <div class="split-grid">
+        <!-- 左侧文案 -->
+        <div class="split-text reveal reveal-left">
+          <div class="badge-pill badge-blue">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M6 18h8" />
+              <path d="M3 22h18" />
+              <path d="M14 22a7 7 0 1 0 0-14h-1" />
+              <path d="M9 14h2" />
+              <path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z" />
+              <path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3" />
+            </svg>
+            创新枢纽，全流程研发平台
+          </div>
+
+          <p class="hero-desc">
+            研发中心构建了从基础研究、应用开发到中试验证的全流程、一体化研发平台，
+            为系统性创新提供了卓越的物理空间与基础设施保障。
+          </p>
+          <p class="hero-desc mb-8">
+            中心以构建自主知识产权体系为核心战略，累计获得国家专利160项，并拥有2项
+            国际专利，形成了一套具有自主竞争力的技术资产组合，展现了对接国际创新舞台的
+            视野与实力。
+          </p>
+
+          <a href="#" class="btn-outline mb-10">
+            点击进入
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+          </a>
+
+          <div class="stats-row-3">
+            <div class="stat reveal">
+              <div class="stat-value">160+</div>
+              <div class="stat-label">国家专利</div>
+            </div>
+            <div class="stat reveal">
+              <div class="stat-value">2</div>
+              <div class="stat-label">国际专利</div>
+            </div>
+            <div class="stat reveal">
+              <div class="stat-value">10+</div>
+              <div class="stat-label">研发项目</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 右侧图片 -->
+        <div class="split-media reveal reveal-right">
+          <div class="media-frame">
+            <img src="images/research/research.png" alt="研发实验室" />
+            <div class="media-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       4. 教育
+  ============================================================ -->
+  <section class="section bg-slate-50" id="education">
+    <div class="container">
+      <header class="section-header reveal">
+        <h2 class="section-title">教育</h2>
+        <p class="section-subtitle">全球最具规模的食品技术创新联盟，赋能产业协同与科研标准化</p>
+      </header>
+
+      <div class="card-grid card-grid-3 stagger">
+        <article class="card card-hover">
+          <div class="card-img card-img-lg">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=450&fit=crop" alt="中国食药安全促进会" />
+          </div>
+          <div class="card-body">
+            <div class="card-title-line">
+              <h3>中国食药安全促进会</h3>
+              <span class="card-en">(FDSA)</span>
+            </div>
+            <p>成立于2016年，由原国家食药监总局、质检总局、卫计委、农业部四部委联合发起，国务院同意，民政部审核批准，是具有独立法人资格的全国性、行业性、非营利性社会组织。</p>
+          </div>
+        </article>
+
+        <article class="card card-hover">
+          <div class="card-img card-img-lg">
+            <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800&h=450&fit=crop" alt="马来西亚 JAKIM" />
+          </div>
+          <div class="card-body">
+            <div class="card-title-line">
+              <h3>马来西亚</h3>
+              <span class="card-en">(JAKIM)</span>
+            </div>
+            <p>隶属于总理府，负责处理与伊斯兰教相关的一切全国性事务。JAKIM是马来西亚管理一切伊斯兰事务的最高联邦机构。它不仅是宗教权威，也兼具强大的行政和执法功能。</p>
+          </div>
+        </article>
+
+        <article class="card card-hover">
+          <div class="card-img card-img-lg">
+            <img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&h=450&fit=crop" alt="印尼 BPJPH" />
+          </div>
+          <div class="card-body">
+            <div class="card-title-line">
+              <h3>印尼</h3>
+              <span class="card-en">(BPJPH)</span>
+            </div>
+            <p>根据2014年《清真产品保证法》成立，并于2019年10月17日正式全面实施其职能。BPJPH是印尼唯一法定的、负责管理和执行全国清真产品认证的官方政府机构。</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="section-footer reveal">
+        <a href="#" class="btn-outline">
+          点击进入
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       5. 检测
+  ============================================================ -->
+  <section class="section bg-white" id="testing">
+    <div class="container">
+      <header class="section-header reveal">
+        <h2 class="section-title">检测</h2>
+        <p class="section-subtitle">立足行业标准、面向产业需求的专业质量与安全服务平台</p>
+      </header>
+
+      <div class="split-grid split-top">
+        <!-- 左侧文案 -->
+        <div class="split-text reveal reveal-left">
+          <div class="title-line">
+            <span class="title-bar"></span>
+            <h3>关于检测中心</h3>
+          </div>
+          <p class="hero-desc">
+            检测中心是立足行业标准、面向产业需求的专业质量与安全服务平台。中心占地面积
+            1800余平方米，构建了涵盖理化分析、精密仪器、微生物检测、感官评价等多功能的现代化实验空间，
+            为全面、高效的质量控制与安全评估提供了坚实的硬件基础。
+          </p>
+          <p class="hero-desc mb-8">
+            中心以"精准、高效、权威"为准则，持续拓展检测能力边界，现已建立覆盖食品、农产品及相关制品的完备检测体系，
+            具备超过6000项具体检测项目的技术能力，可针对352种以上产品提供符合国家标准及国际规范的全方位质量评估。
+          </p>
+          <a href="#" class="btn-outline">
+            点击进入
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- 右侧图片组合（左中右错落） -->
+        <div class="split-media reveal reveal-right">
+          <div class="testing-imgs">
+            <img src="images/testing/img-left.png" alt="检测实验室1" class="t-img t-img-left" />
+            <img src="images/testing/img-center.png" alt="检测实验室2" class="t-img t-img-center" />
+            <img src="images/testing/img-right.png" alt="检测实验室3" class="t-img t-img-right" />
+          </div>
+        </div>
+      </div>
+
+      <!-- 底部统计 -->
+      <div class="stats-row-4 reveal">
+        <div class="stat">
+          <div class="stat-value-lg">6000+</div>
+          <div class="stat-label">检测项目</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value-lg">352</div>
+          <div class="stat-label">产品类型</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value-lg">1800+</div>
+          <div class="stat-label">实验室面积（㎡）</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value-lg">6+</div>
+          <div class="stat-label">核心检测服务</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       6. 物流
+  ============================================================ -->
+  <section class="section bg-slate-50 section-logistics" id="logistics">
+    <div class="container">
+      <header class="section-header reveal">
+        <h2 class="section-title">物流</h2>
+        <p class="section-subtitle">打破地域壁垒，智慧物流链通全球</p>
+      </header>
+
+      <div class="logistics-grid">
+        <!-- 左侧文案 -->
+        <div class="logistics-text reveal reveal-left">
+          <p class="logistics-lead">全球各大船公司保驾护航</p>
+          <p class="hero-desc mb-10">
+            确保中国优质产品高效触达全球消费者，同时引入海外优质产品，
+            构建双向畅通的国际物流通道。
+          </p>
+
+          <a href="#" class="btn-logistics" id="logisticsBtn">
+            点击进入 →
+          </a>
+
+          <!-- 数据统计：2×2 排列 -->
+          <div class="logistics-stats">
+            <div class="log-stat">
+              <span class="log-stat-label">合作航线</span>
+              <span class="log-stat-value">34+</span>
+            </div>
+            <div class="log-stat">
+              <span class="log-stat-label">覆盖国家</span>
+              <span class="log-stat-value">120+</span>
+            </div>
+            <div class="log-stat">
+              <span class="log-stat-label">年吞吐量（吨）</span>
+              <span class="log-stat-value">200w+</span>
+            </div>
+            <div class="log-stat">
+              <span class="log-stat-label">合作伙伴</span>
+              <span class="log-stat-value">30+</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 右侧：全球航线地图（JS 渲染） -->
+        <div class="logistics-map reveal reveal-right">
+          <div id="worldMap" class="map-wrap" role="img" aria-label="全球物流航线网络地图"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       7. 供应链金融
+  ============================================================ -->
+  <section class="section bg-white" id="finance">
+    <div class="container">
+      <header class="section-header reveal">
+        <h2 class="section-title">供应链金融</h2>
+        <p class="section-subtitle">立足行业标准、面向产业需求的专业质量与安全服务平台</p>
+      </header>
+
+      <div class="card-grid card-grid-3 stagger">
+        <article class="card card-article card-hover-soft">
+          <div class="card-img card-img-16-9">
+            <img src="images/finance/fdsa.png" alt="中国食药安全促进会（FDSA）为推动..." />
+          </div>
+          <div class="card-body">
+            <h3 class="line-clamp-1">中国食药安全促进会（FDSA）为推动...</h3>
+            <p class="line-clamp-3">目前各项工作正在有序推进。</p>
+          </div>
+        </article>
+
+        <article class="card card-article card-hover-soft">
+          <div class="card-img card-img-16-9">
+            <img src="images/finance/shandong.png" alt="2025 年 9 月山东惠发食品股份有限公..." />
+          </div>
+          <div class="card-body">
+            <h3 class="line-clamp-1">2025 年 9 月山东惠发食品股份有限公...</h3>
+            <p class="line-clamp-3">双方正在商讨联合其他企业合和相关机构成立清真食品产业基金事宜。</p>
+          </div>
+        </article>
+
+        <article class="card card-article card-hover-soft">
+          <div class="card-img card-img-16-9">
+            <img src="images/finance/belt-road.png" alt="一带一路倡议推动我国与中东、东..." />
+          </div>
+          <div class="card-body">
+            <h3 class="line-clamp-1">"一带一路" 倡议推动我国与中东、东...</h3>
+            <p class="line-clamp-3">专项基金还会吸引阿拉伯国家等境外资金加入，助力整合上游养殖基地、中游加工企业、下游跨境渠道及冷链物流等全链条资...</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="section-footer reveal">
+        <a href="#" class="btn-outline">
+          点击进入 →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       8. 线上 B2B2C
+  ============================================================ -->
+  <section class="section bg-slate-50" id="b2b2c">
+    <div class="container">
+      <header class="section-header reveal">
+        <h2 class="section-title">线上B2B2C</h2>
+        <p class="section-subtitle">双轮驱动的产业互联网平台</p>
+      </header>
+
+      <div class="card-grid card-grid-4 stagger">
+        <article class="card-b2b2c card-hover-soft">
+          <span class="b2b2c-badge">B端</span>
+          <div class="b2b2c-logo">
+            <img src="images/b2b2c/amazon.png" alt="亚马逊" />
+          </div>
+          <h3>亚马逊</h3>
+          <p>以极致的物流和云计算（AWS）为底层，卖给全世界最全的商品。</p>
+        </article>
+
+        <article class="card-b2b2c card-hover-soft">
+          <span class="b2b2c-badge">B端</span>
+          <div class="b2b2c-logo">
+            <img src="images/b2b2c/alibaba.png" alt="阿里" />
+          </div>
+          <h3>阿里</h3>
+          <p>不做买卖本身，而是搭建交易场和金融云生态，帮千万中小企业做好生意。</p>
+        </article>
+
+        <article class="card-b2b2c card-hover-soft">
+          <span class="b2b2c-badge">C端</span>
+          <div class="b2b2c-logo">
+            <img src="images/b2b2c/douyin.png" alt="抖音" />
+          </div>
+          <h3>抖音</h3>
+          <p>通过推荐引擎让内容找人，在刷视频的沉浸感中直接催生消费。</p>
+        </article>
+
+        <article class="card-b2b2c card-hover-soft">
+          <span class="b2b2c-badge">C端</span>
+          <div class="b2b2c-logo">
+            <img src="images/b2b2c/wechat.png" alt="微信" />
+          </div>
+          <h3>微信</h3>
+          <p>基于熟人关系链，将通讯、支付、小程序缝合，成为中国人数字生活的"万能入口"。</p>
+        </article>
+      </div>
+
+      <div class="section-footer reveal">
+        <a href="#" class="btn-outline">
+          点击进入 →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       9. 订单系统
+  ============================================================ -->
+  <section class="section bg-white" id="order">
+    <div class="container">
+      <header class="section-header reveal">
+        <h2 class="section-title">订单系统</h2>
+        <p class="section-subtitle">专业、高效、全链路一体化</p>
+      </header>
+
+      <div class="order-grid">
+        <!-- 左侧 Tab -->
+        <div class="order-tabs reveal reveal-left">
+          <button class="tab-btn active" data-tab="团餐">团餐</button>
+          <button class="tab-btn" data-tab="流通">流通</button>
+          <button class="tab-btn" data-tab="海外">海外</button>
+        </div>
+
+        <!-- 右侧卡片 -->
+        <div class="order-card reveal reveal-right">
+          <div class="order-inner">
+            <div class="order-content">
+              <h3 id="orderTitle">惠发云</h3>
+              <div class="order-features" id="orderFeatures">
+                <div class="order-feature">
+                  <img src="images/order/checkmark.png" alt="" />
+                  <span>全产业链覆盖</span>
+                </div>
+                <div class="order-feature">
+                  <img src="images/order/checkmark.png" alt="" />
+                  <span>深度产业赋能</span>
+                </div>
+                <div class="order-feature">
+                  <img src="images/order/checkmark.png" alt="" />
+                  <span>数字化与智能化</span>
+                </div>
+                <div class="order-feature">
+                  <img src="images/order/checkmark.png" alt="" />
+                  <span>精准数据分析智配库存与发货</span>
+                </div>
+              </div>
+              <div class="order-btn-wrap">
+                <a href="#" class="btn-outline">
+                  点击进入
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- 右侧示意图 + AI 洞察 -->
+            <div class="order-demo">
+              <img src="images/order/dashboard-demo.gif" alt="惠发云订单系统界面" class="order-demo-img" />
+              <div class="ai-panel">
+                <div class="ai-header">
+                  <div class="ai-icon">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" />
+                      <path d="M20 3v4" />
+                      <path d="M22 5h-4" />
+                      <path d="M4 17v2" />
+                      <path d="M5 18H3" />
+                    </svg>
+                  </div>
+                  <span class="ai-title">AI 洞察</span>
+                  <span class="ai-live">
+                    <span class="ai-dot"></span>
+                    实时分析
+                  </span>
+                </div>
+                <div class="ai-text" id="aiText"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/world-map-data.js?v=20260825d"></script>
+  <script src="js/main.js?v=20260825d"></script>
+</body>
+</html>
